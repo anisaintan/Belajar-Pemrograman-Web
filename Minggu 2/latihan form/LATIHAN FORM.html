@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Pendaftaran</title>
+</head>
+
+<body>
+	<h2> FORM PENDAFTARAN HM-SI </h2>
+<form name="fbiomhs" action="form.php" method="post">
+<table>
+	<tr>
+		<td>NIM</td>
+		<td><input type="text" name="fnim"></td>
+	</tr>
+	<tr>
+		<td>NAMA</td>
+		<td><input type="text" name="fnama"></td>
+	</tr>
+	<tr>
+		<td>TANGGAL LAHIR</td>
+		<td><input type="date" name="ftgllahir"></td>
+	</tr>
+	<tr>
+		<td>JENIS KELAMIN</td>
+		<td><input type="radio" name="fjeniskelamin"
+		value="L">L<input type="radio" name="fjeniskelamin"
+		value="P">P</td>
+	</tr>
+	<tr>
+		<td>IPK</td>
+		<td><input type="number" name="fipk"></td>
+	</tr>
+	<tr>
+		<td>AGAMA</td>
+		<td>
+			<select>
+				<option value="islam">Islam</option>
+				<option value="kristen">Kristen</option>
+				<option value="katolik">Katolik</option>
+				<option value="hindu" >Hindu</option>
+				<option value="buddha">Buddha</option>
+				<option value="konghuchu">Konghuchu</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>BIDANG PEMINATAN</td>
+		<td>
+			<select multiple>
+				<option value="forntend">Front End Web Dev.</option>
+				<option value="backend">Back End Web Dev.</option>
+				<option value="devops">DEVOPS</option>
+				<option value="android">Android Dev.</option>
+				<option value="ios">IOS DEV.</option>
+			</select>
+		</td>
+	</tr>
+<tr>
+	<td>
+		<input type="submit" name="submit" value="KIRIM">
+	</td>
+</tr>
+	
+</table>
+</form>
+
+</body>
+</html>
